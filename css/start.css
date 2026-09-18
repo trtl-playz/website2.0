@@ -1,0 +1,163 @@
+body {
+  color: #ffffff;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+cen {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: overline;
+}
+
+lef {
+  text-align: right;
+}
+
+pad {
+  padding: 10px;
+}
+
+.spacer {
+  width: 100px;
+  height: 10vh;
+  min-width: 100px;
+  min-height: 10%;
+}
+
+.mainBox {
+  width: 60vw;
+  height: 80vh;
+  min-width: 800px;
+  min-height: 600px;
+
+  background: #000000e6; /* e6 :3 */
+  border: 2px solid #80a4ed;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  width: 75%;
+  height: 100%;
+}
+
+.ranOutaNames {
+  height: 20%;
+  display: flex;
+  align-items: center;
+
+  border-color: #80a4ed;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px; /* top, right, bottom, left */
+}
+
+.logoBox{
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  padding-block: inherit;
+  flex-direction: column;
+}
+
+.extraBox {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.aboutBox {
+  height: 100%;
+  width: 60%;
+  display: flex;
+
+  border-color: #80a4ed;
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+}
+
+.msgBox {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonBox {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  /*flex-direction: row;*/
+
+  border-color: #80a4ed;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+}
+
+.tuxBox {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+}
+
+.buttonBoxFR {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+buttonRow {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.box2 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+
+  border-color: #80a4ed;
+  border-style: solid;
+  border-width: 0px 0px 0px 2px;
+}

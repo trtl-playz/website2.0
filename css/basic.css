@@ -1,0 +1,43 @@
+body {
+  background-color: #030303;
+  color: #bdbdbd;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: overline;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+hr { 
+  height: 4px; 
+  background-color: #ffffff; 
+  border: none; 
+} 
+
+cen {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
